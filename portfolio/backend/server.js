@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const routes = require("./routes");
 
 require('dotenv').config();
 
@@ -8,6 +9,8 @@ const PORT = process.env.PORT || 7777;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.use(routes);
 
 const URI = "mongodb+srv://skypalace-desktop:mongoPASS321@cluster0.7scgu.mongodb.net/react-portfolio?retryWrites=true&w=majority";
 
