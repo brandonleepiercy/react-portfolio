@@ -1,10 +1,11 @@
 .nav-row {
     position: relative;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .nav-button {
+    opacity: 0%;
     background-color: #32F08E;
     border: none;
     color: #FFBA94;
@@ -12,10 +13,23 @@
     text-align: center;
     text-decoration: none;
     margin: 4px 2px;
-    transition-duration: 1.5s;
+    transition-duration: 0.8s;
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .nav-button:hover {

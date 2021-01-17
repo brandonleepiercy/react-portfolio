@@ -4,9 +4,8 @@ import Border from "../components/Border";
 function Home() {
     return(
         <div>
-            <Border>
+            <Border />
             Home
-            </Border>
         </div>
     );
 };
