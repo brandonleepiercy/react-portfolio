@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.invis-box {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35vw;
+}
+
+.green-box {
+    background-color: #32F08E;
+    display: flex;
+    width: 95vw;
+    margin: 150px auto;
+}

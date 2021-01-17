@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css";
+import './style.css';
 import logo from "../../images/BLP-logo-footer.png";
 
 function Footer() {
@@ -21,8 +21,8 @@ function Footer() {
 
                 <div class="footer-third">
                     <h1>Links</h1>
-                    <a href="https://www.linkedin.com/in/brandon-piercy-8713a1130/">LinkedIn</a>
-                    <a href="https://github.com/brandonleepiercy/">GitHub</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brandon-piercy-8713a1130/">LinkedIn</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/brandonleepiercy/">GitHub</a>
                 </div>
 
                 <div class="footer-third">
