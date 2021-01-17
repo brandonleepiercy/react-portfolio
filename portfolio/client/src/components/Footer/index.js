@@ -8,7 +8,7 @@ function Footer() {
             <div class="inner-footer">
 
                 <div class="logo-container">
-                    <img src={logo} alt="BP logo"/>
+                    <a href="/home"><img src={logo} alt="simple square logo featuring my initials"/></a>
                 </div>
 
                 <div class="footer-third">

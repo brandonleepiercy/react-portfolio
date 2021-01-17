@@ -11,6 +11,7 @@
     display: block;
     justify-content: center;
     height: 700px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .green-box {
@@ -19,6 +20,8 @@
     width: 95vw;
     margin: 150px auto;
     height: 75%;
+    animation: fadeInAnimation ease-in 1.4s;
+    animation-iteration-count: 1;
 }
 
 .text-group {
@@ -52,6 +55,23 @@
 
 .description-text {
     font-size: 60px;
+    color: #FFBA94;
+}
+
+.name-1 {
+    color: #35ABE7;
+}
+
+.name-2 {
+    color: #D65BE7;
+}
+
+.name-3 {
+    color: #FFBA94;
+}
+
+.technology {
+    color: #D65BE7;
 }
 
 @media(min-width: 2070px) {
@@ -64,7 +84,7 @@
     }
 }
 
-@media(max-width: 1670px) {
+@media(max-width: 1750px) {
     .brandon-text {
         font-size: 75px;
     }
