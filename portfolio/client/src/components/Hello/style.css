@@ -8,14 +8,92 @@
 .invis-box {
     margin: 0 auto;
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
-    height: 35vw;
+    height: 700px;
 }
 
 .green-box {
     background-color: #32F08E;
-    display: flex;
+    display: block;
     width: 95vw;
     margin: 150px auto;
+    height: 75%;
+}
+
+.text-group {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hi-group {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi-text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.brandon-text {
+    font-size: 100px;
+}
+
+.description-text {
+    font-size: 60px;
+}
+
+@media(min-width: 2070px) {
+    .hi-group {
+        padding-left: 100px;
+    }
+
+    .hi-text {
+        padding-right: 100px;
+    }
+}
+
+@media(max-width: 1670px) {
+    .brandon-text {
+        font-size: 75px;
+    }
+
+    .description-text {
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 1670px) {
+    .brandon-text {
+        font-size: 40px;
+    }
+
+    .description-text {
+        font-size: 25px;
+    }
+    
+    .invis-box {
+        height: 300px;
+    }
+}
+
+@media(max-width: 730px) {
+    .brandon-text {
+        font-size: 25px;
+    }
+
+    .description-text {
+        font-size: 15px;
+    }
 }
