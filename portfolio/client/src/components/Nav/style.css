@@ -1,0 +1,23 @@
+.nav-row {
+    position: relative;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.nav-button {
+    background-color: #32F08E;
+    border: none;
+    color: #FFBA94;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+}
+
+.nav-button:hover {
+    opacity: 0.48;
+}
