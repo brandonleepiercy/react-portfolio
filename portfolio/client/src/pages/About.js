@@ -5,7 +5,7 @@ function About() {
     return(
         <div>
             <Border />
-                <div>Hello</div>
+                <div>About</div>
         </div>
     );
 };

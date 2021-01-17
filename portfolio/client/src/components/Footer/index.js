@@ -13,10 +13,10 @@ function Footer() {
 
                 <div class="footer-third">
                     <h1>Nav</h1>
-                    <a href="https://www.linkedin.com/in/brandon-piercy-8713a1130/">Home</a>
-                    <a href="https://github.com/brandonleepiercy/">About</a>
-                    <a href="https://www.linkedin.com/in/brandon-piercy-8713a1130/">Projects</a>
-                    <a href="https://github.com/brandonleepiercy/">Contact</a>
+                    <a href="/home">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/contact">Contact</a>
                 </div>
 
                 <div class="footer-third">
