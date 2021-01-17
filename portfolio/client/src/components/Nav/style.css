@@ -33,3 +33,9 @@
         opacity: 1;
     }
 }
+
+@media(max-width: 1000px){
+    .nav-row {
+        margin-top: 20px;
+    }
+}
