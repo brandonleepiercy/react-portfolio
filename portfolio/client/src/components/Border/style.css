@@ -1,7 +1,7 @@
 #top, #bottom, #left, #right {
 	background: #32F08E;
 	position: fixed;
-	animation: fadeInAnimation ease 3s;
+	animation: fadeInAnimation ease 5.2s;
 	animation-iteration-count: 1;
 	}
 	#left, #right {
