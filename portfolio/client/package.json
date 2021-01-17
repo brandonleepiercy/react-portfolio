@@ -13,7 +13,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "cd client && npm run start"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
