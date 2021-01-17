@@ -17,12 +17,12 @@
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
-    animation: fadeInAnimation ease-in 1.3s;
+    animation: fadeInAnimation ease-in 2.4s;
     animation-iteration-count: 1;
 }
 
 .nav-button:hover {
-    filter: invert(1);
+    filter: invert(0.74);
 }
 
 @keyframes fadeInAnimation {
