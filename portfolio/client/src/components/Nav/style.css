@@ -5,7 +5,7 @@
 }
 
 .nav-button {
-    opacity: 0%;
+    opacity: 100%;
     background-color: #32F08E;
     border: none;
     color: #FFBA94;
@@ -13,15 +13,15 @@
     text-align: center;
     text-decoration: none;
     margin: 4px 2px;
-    transition-duration: 0.8s;
+    transition-duration: 1.0s;
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease-in 3s;
     animation-iteration-count: 1;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
 }
+
+.nav-button:hover {opacity: 40%}
 
 @keyframes fadeInAnimation {
     0% {
