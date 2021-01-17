@@ -94,4 +94,8 @@ footer {
     .inner-footer .footer-third {
         width: 100%;
     }
+    .inner-footer .logo-container img {
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
