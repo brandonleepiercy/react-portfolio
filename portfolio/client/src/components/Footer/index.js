@@ -1,11 +1,21 @@
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
-Footer = () => {
-    return (
-        <div className="footer">
-            
+function Footer() {
+    return(
+        <div className="container">
+            <footer>
+                content
+                <br />
+                content
+                <br /> 
+                content
+                <br />
+                content
+                <br />
+            </footer>
         </div>
     )
-}
+};
+
+export default Footer;
