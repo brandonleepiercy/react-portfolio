@@ -23,6 +23,7 @@
 
 .nav-button:hover {
     filter: invert(0.94);
+    transform: scale(1.2);
 }
 
 @keyframes fadeInAnimation {
