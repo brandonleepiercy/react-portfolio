@@ -13,7 +13,7 @@
     margin-left: 40%;
     background-color: #32F08E;
     font-family: 'Work Sans', sans-serif;
-    animation: fadeInAnimation ease-in 1.5s;
+    animation: fadeInAnimation ease-in 1s;
     animation-iteration-count: 1;
 }
 

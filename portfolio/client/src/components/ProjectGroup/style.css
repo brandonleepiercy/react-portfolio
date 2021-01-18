@@ -14,6 +14,8 @@
     margin-top: 200px;
     background-color: #32F08E;
     transition-duration: 0.9s;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
 }
 
 .project:hover {
