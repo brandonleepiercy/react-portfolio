@@ -94,21 +94,31 @@
     }
 }
 
-@media(max-width: 1670px) {
+@media(max-width: 1350px) {
     .brandon-text {
-        font-size: 40px;
+        font-size: 65px;
+    }
+
+    .description-text {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .brandon-text {
+        font-size: 45px;
     }
 
     .description-text {
         font-size: 25px;
     }
-    
+
     .invis-box {
         height: 300px;
     }
 }
 
-@media(max-width: 765px) {
+@media(max-width: 850px) {
     .brandon-text {
         font-size: 25px;
     }
