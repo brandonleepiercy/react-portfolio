@@ -23,6 +23,14 @@
     transform: scale(1.1);
 }
 
+.project:hover img {
+    transform: scale(1.2);
+}
+
+.project:hover .project-desc {
+    padding-left: 70px;
+}
+
 .project-image {
     flex: 1;
 }
@@ -32,6 +40,7 @@
     padding-left: 2%;
     padding-bottom: 2%;
     padding-top: 2%;
+    transition-duration: 1.3s;
 }
 
 .project-desc {
@@ -40,6 +49,7 @@
     padding-bottom: 30px;
     padding-right: 30px;
     color: white;
+    transition-duration: 1s;
 }
 
 .project-desc h1 {
