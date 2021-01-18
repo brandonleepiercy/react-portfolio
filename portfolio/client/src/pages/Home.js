@@ -6,7 +6,6 @@ function Home() {
     return(
         <div>
             <Border />
-
             <Hello />
         </div>
     );

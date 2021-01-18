@@ -17,7 +17,7 @@
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
-    animation: fadeInAnimation ease-in 2.4s;
+    animation: fadeInAnimation ease-in 1.5s;
     animation-iteration-count: 1;
 }
 

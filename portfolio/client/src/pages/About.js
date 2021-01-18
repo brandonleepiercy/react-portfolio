@@ -1,11 +1,12 @@
 import React from "react";
 import Border from "../components/Border";
+import InfoBlock from "../components/InfoBlock";
 
 function About() {
     return(
         <div>
             <Border />
-                <div>About</div>
+            <InfoBlock />
         </div>
     );
 };

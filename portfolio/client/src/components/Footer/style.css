@@ -15,7 +15,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 50px;
     font-family: 'Work Sans', sans-serif;
-    animation: fadeInAnimation ease 3.4s;
+    animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
 }
 

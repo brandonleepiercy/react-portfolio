@@ -20,7 +20,7 @@
     width: 95vw;
     margin: 150px auto;
     height: 75%;
-    animation: fadeInAnimation ease-in 1.4s;
+    animation: fadeInAnimation ease-in 1s;
     animation-iteration-count: 1;
 }
 
