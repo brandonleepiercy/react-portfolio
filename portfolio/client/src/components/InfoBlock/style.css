@@ -7,7 +7,7 @@
 
 .fl-container {
     display: flex;
-    height:875px;
+    height: auto;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 40%;
