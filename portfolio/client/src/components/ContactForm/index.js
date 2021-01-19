@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./style.css";
+import API from "../../utils/API.js";
 
 function ContactForm() {
 
@@ -29,7 +30,7 @@ function ContactForm() {
             setEmail({
                 email: submittedEmail,
                 note: submittedNote
-            }, send());
+            }, send(submittedEmail, submittedNote));
         } else if (emailIsValid(submittedEmail)===false) {
             alert("Please submit a valid e-mail");
         } else if (submittedNote == null) {
@@ -39,8 +40,11 @@ function ContactForm() {
         }
     };
 
-    function send() {
-        console.log(email);
+    function send(email, note) {
+        API.storeContact({
+            email: email,
+            note: note
+        }).then(res => {console.log(res)});
     };
 
     return(
