@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static("../client/public"));
+    app.use(express.static("client/build"));
 };
 
 const URI = "mongodb+srv://skypalace-desktop:mongoPASS321@cluster0.7scgu.mongodb.net/react-portfolio?retryWrites=true&w=majority";
@@ -26,8 +26,5 @@ mongoose.connect(
 );
 
 app.use(routes);
-app.use((req, res) => {
-    res.sendFile(path.join(__dirname, "../../../client/public/index.html"))
-});
 
 app.listen(PORT, () => console.log(`Server listening on PORT: ${PORT}`));
