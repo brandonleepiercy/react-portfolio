@@ -13,7 +13,9 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "cd client && npm run start"
+    "server": "cd backend && node server.js",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": [

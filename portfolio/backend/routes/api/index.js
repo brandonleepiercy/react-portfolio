@@ -4,8 +4,6 @@ const contactRoutes = require("./contact");
 
 router.use("/contact", contactRoutes);
 
-router.use((req, res) => {
-    res.sendFile(path.join(__dirname, "../../../client/public/index.html"))
-});
+
 
 module.exports = router;
