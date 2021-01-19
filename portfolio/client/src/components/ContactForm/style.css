@@ -64,3 +64,44 @@
     color: #FFBA94;
     transform: scale(1.1);
 }
+
+@media (max-width: 1300px) {
+    .email-form {
+        left:200px;
+    }
+
+    .contact-box h1 {
+        left: 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-background {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .email-form {
+        left: 0px;
+        transform:scale(1);
+
+    }
+
+    .contact-box h1 {
+        left: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-background {
+        justify-content: flex-start;
+    }
+
+    .email-form {
+        width: 300px;
+    }
+    
+    .email-form textarea {
+        width: 95%;
+    }
+}

@@ -65,3 +65,9 @@
 .project-desc a:hover {
     color:#D65BE7;
 }
+
+@media (max-width:1000px) {
+    .project {
+        flex-direction: column;
+    }
+}
