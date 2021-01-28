@@ -5,11 +5,24 @@ import raffleApp from "../../images/raffle-app.png";
 import whiteRabbit from "../../images/white-rabbit.PNG";
 import ems from "../../images/ems.PNG";
 import note from "../../images/notetaker.PNG";
-import scheduler from "../../images/scheduler.PNG";
+import snippet from "../../images/snippet.PNG";
 
 function ProjectGroup() {
     return(
         <div>
+            <div className="project">
+                <div className="project-image">
+                    <img src={snippet} alt="this is a grab of Snippet.im"/>
+                </div>
+                <div className="project-desc">
+                    <h1>Snippet</h1>
+                    <p>Snippet is a full-stack React.js application with a MySQL database, routed with Express.js. The application stores snippets of code that developers may want to reference for future use. Users can sign up for an account, but they do not have to in order to search and browse through the snippets already in the database. Users do have to create an account to create code snippets and insert them into the database. When creating code, the user assigns a title, description and tags to make it easier for other users to search for and find. Commenting, likes, copies and other user data is tracked. The application is being deployed with AWS, the link is coming soon in the next few days.</p>
+                    <div className="project-link-box">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/ma-wong/project-3/">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
             <div className="project">
                 <div className="project-image">
                     <img src={icebox} alt="this is a grab of icebox's homepage"/>
@@ -77,21 +90,6 @@ function ProjectGroup() {
                         <a target="_blank" rel="noreferrer" href="https://github.com/brandonleepiercy/note-taker">Github Repo</a>
                         <br />
                         <a target="_blank" rel="noreferrer" href="https://whispering-badlands-53834.herokuapp.com/">Heroku Deployment</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="project">
-                <div className="project-image">
-                    <img src={scheduler} alt="this is a grab of the work-day-planner"/>
-                </div>
-                <div className="project-desc">
-                    <h1>Work Day Scheduler</h1>
-                    <p>This is a simple front end only application that displays each hour of the day between 5am to 11pm in row format. The users can then enter in a string in each row, which will be saved locally. The rows dynamically change colors depending on whether the hour has passed, is  in the future, or in progress. </p>
-                    <div className="project-link-box">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/brandonleepiercy/work-day-planner">Github Repo</a>
-                        <br />
-                        <a target="_blank" rel="noreferrer" href="https://brandonleepiercy.github.io/work-day-planner/">Github Deployment</a>
                     </div>
                 </div>
             </div>
