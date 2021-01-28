@@ -17,6 +17,8 @@ class Nav extends Component {
     updateButtons = () => {
         let location = window.location.href;
         let currentPage = location.split('/').pop();
+        console.log(currentPage);
+        console.log(location);
         switch (currentPage) {
             case "Home":
                 this.setState({
