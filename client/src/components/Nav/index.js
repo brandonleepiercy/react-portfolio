@@ -15,7 +15,7 @@ class Nav extends Component {
     };
 
     updateButtons = () => {
-        let location = window.location.pathname;
+        let location = window.location.pathname.toString();
         let currentPage = location.substr(1).slice(0, -1);
         console.log(currentPage);
         console.log(location);
