@@ -1,10 +1,6 @@
 import React from 'react';
 import "./style.css";
 import icebox from "../../images/icebox.png"
-import raffleApp from "../../images/raffle-app.png";
-import whiteRabbit from "../../images/white-rabbit.PNG";
-import ems from "../../images/ems.PNG";
-import note from "../../images/notetaker.PNG";
 import snippet from "../../images/snippet.PNG";
 
 function ProjectGroup() {
