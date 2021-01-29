@@ -51,11 +51,11 @@ function ContactForm() {
         <div className = "contact-background">
             <div className= "contact-box">
                 <h1>Contact</h1>
-                <form className="email-form">
-                    <input type="text" id="email" name="email" placeholder="Enter a valid email address." onChange={handleInputChange}/><br/>
-                    <textarea rows="4" cols="45" name="note" id="note" placeholder="Enter a message (required)." onChange={handleInputChange}/><br/>
-                    <button id="email-submit" onClick={verifySubmit}>Send Message</button>
-                </form>
+                <div className="contact-info-box">
+                    <h3>For all inquiries you can email me at:</h3>
+                    <p>b.piercy567@gmail.com</p>
+                    <p>brandonpiercy@ucsb.edu</p>
+                </div>
             </div>
         </div>
     )

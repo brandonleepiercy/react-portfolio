@@ -30,7 +30,7 @@
     left: 275px;
 }
 
-.email-form {
+.contact-info-box {
     position: relative;
     left:400px;
     width: 500px;
@@ -38,6 +38,11 @@
     margin: 50px auto;
     background-color: white;
     transform:scale(1.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFBA94;
 }
 
 #email {
