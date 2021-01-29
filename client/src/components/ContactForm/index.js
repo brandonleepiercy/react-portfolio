@@ -53,8 +53,8 @@ function ContactForm() {
                 <h1>Contact</h1>
                 <div className="contact-info-box">
                     <h3>For all inquiries you can email me at:</h3>
-                    <p>b.piercy567@gmail.com</p>
-                    <p>brandonpiercy@ucsb.edu</p>
+                    <a href="mailto:b.piercy567@gmail.com"><p>b.piercy567@gmail.com</p></a>
+                    <a href="mailto:brandonpiercy@ucsb.edu"><p>brandonpiercy@ucsb.edu</p></a>
                 </div>
             </div>
         </div>

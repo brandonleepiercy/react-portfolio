@@ -45,6 +45,10 @@
     color: #FFBA94;
 }
 
+.contact-info-box a {
+    color: #FFBA94;
+}
+
 #email {
     display: block;
     margin-left: auto;
