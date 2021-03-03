@@ -1,7 +1,7 @@
 .nav-row {
     position: relative;
-    padding: 10px;
     margin-top: 70px;
+    width: 100vw;
 }
 
 .nav-button {
